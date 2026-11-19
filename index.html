@@ -1,0 +1,248 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Daniela Zárraga Monasterios</title>
+<meta name="description" content="Diseño, branding y experiencias creativas. Emprendedora, diseñadora gráfica y psicóloga en formación.">
+<meta property="og:title" content="Daniela Zárraga Monasterios">
+<meta property="og:description" content="Diseño, branding y experiencias creativas. Conocé mis emprendimientos.">
+<meta property="og:image" content="img/dz-vertical-negro.png">
+<meta name="theme-color" content="#000000">
+<link rel="icon" href="img/dz-monograma-negro.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lexend:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{--negro:#000;--blanco:#fff;--gris:#6b6b6b;--linea:#e6e6e6}
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{-webkit-text-size-adjust:100%}
+  body{background:var(--blanco);color:var(--negro);font-family:Lexend,system-ui,sans-serif;font-weight:300;line-height:1.55}
+  a{color:inherit}
+  .wrap{max-width:460px;margin:0 auto;min-height:100vh;overflow:hidden;background:var(--blanco)}
+
+  .patron{height:150px;background:url(img/patron.png) center/560px no-repeat;border-bottom:2px solid var(--negro)}
+  .foto{display:block;width:196px;height:245px;object-fit:cover;margin:-112px auto 0;border:2px solid var(--negro);border-radius:14px;background:#ddd;position:relative}
+  .intro{text-align:center;padding:26px 24px 0}
+  .intro h1{margin:0}
+  .intro .logo{width:78%;max-width:300px;height:auto;display:block;margin:0 auto}
+  .rol{font-weight:400;letter-spacing:.16em;text-transform:uppercase;font-size:.66rem;margin-top:18px}
+  .bio{margin:14px auto 0;max-width:34ch;font-size:1rem;color:var(--gris)}
+
+  .acciones{display:grid;grid-template-columns:1fr 1fr;gap:10px;padding:28px 20px 0}
+  .btn{display:flex;align-items:center;justify-content:center;gap:8px;text-decoration:none;font:inherit;font-weight:400;font-size:.95rem;
+       padding:14px 12px;border-radius:10px;border:1.5px solid var(--negro);background:var(--blanco);color:var(--negro);cursor:pointer}
+  .btn svg{width:18px;height:18px;flex:none}
+  .btn.principal{grid-column:1/-1;background:var(--negro);color:var(--blanco);font-weight:600;padding:16px}
+  .btn:active{transform:scale(.98)}
+
+  section{padding:44px 20px 0}
+  h2{font-weight:600;font-size:.74rem;letter-spacing:.24em;text-transform:uppercase;display:flex;align-items:center;gap:12px;margin-bottom:16px}
+  h2::after{content:"";flex:1;height:1.5px;background:var(--negro)}
+
+  .proyectos{list-style:none;border-top:1.5px solid var(--negro)}
+  .proy{border-bottom:1.5px solid var(--negro);padding:16px 0 14px}
+  .proy-main{display:flex;align-items:flex-start;gap:14px;text-decoration:none}
+  .num{font-weight:200;font-size:1.5rem;line-height:1.1;width:34px;flex:none}
+  .txt b{display:block;font-weight:600;font-size:1.12rem;line-height:1.25}
+  .txt small{display:block;font-size:.88rem;color:var(--gris);margin-top:2px}
+  .flecha{margin-left:auto;font-size:1.3rem;font-weight:300;line-height:1}
+  .mini{padding:8px 0 0 48px;font-size:.8rem;color:var(--gris)}
+  .mini a{color:var(--negro);text-underline-offset:3px;text-decoration-thickness:1px}
+
+  .chips{display:flex;flex-wrap:wrap;gap:8px}
+  .chip{border:1.5px solid var(--negro);border-radius:8px;padding:6px 12px;font-size:.86rem;font-weight:400}
+
+  .linea{list-style:none}
+  .linea li{position:relative;padding:0 0 20px 22px;border-left:1.5px solid var(--negro)}
+  .linea li:last-child{padding-bottom:0}
+  .linea li::before{content:"";position:absolute;left:-6px;top:5px;width:10px;height:10px;background:var(--negro)}
+  .linea b{display:block;font-weight:600;font-size:.98rem;line-height:1.35}
+  .fecha{display:block;font-size:.76rem;letter-spacing:.12em;text-transform:uppercase;color:var(--gris)}
+  .linea p{font-size:.92rem;color:var(--gris);margin-top:2px}
+  .extra{font-size:.92rem;color:var(--gris);margin-top:18px}
+  .extra strong{color:var(--negro);font-weight:400}
+
+  .evento{margin:44px 20px 0;padding:22px 20px;border-radius:14px;background:var(--negro);color:var(--blanco);font-size:.95rem;display:flex;gap:16px;align-items:center}
+  .evento img{width:46px;height:46px;flex:none}
+  .evento b{font-weight:600;display:block;margin-bottom:2px}
+
+  footer{text-align:center;padding:40px 20px 0}
+  .redes{display:flex;justify-content:center;gap:12px;margin-bottom:28px}
+  .redes a{width:46px;height:46px;border-radius:10px;display:grid;place-items:center;border:1.5px solid var(--negro)}
+  .redes svg{width:20px;height:20px}
+  footer .logo-h{width:220px;max-width:70%;height:auto}
+  footer p{font-size:.7rem;color:var(--gris);margin:12px 0 28px;letter-spacing:.2em}
+  .patron.pie{height:56px;border-bottom:0;border-top:2px solid var(--negro)}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="patron" aria-hidden="true"></div>
+  <img class="foto" src="img/daniela.jpg" alt="Foto de Daniela Zárraga">
+
+  <div class="intro">
+    <h1><img class="logo" src="img/dz-horizontal-negro.png" alt="Daniela Zárraga Monasterios"></h1>
+    <p class="rol">Diseño · Branding · Experiencias creativas</p>
+    <p class="bio">Emprendedora, diseñadora gráfica y psicóloga en formación. Combino arte, diseño y psicología para crear marcas y experiencias que conectan.</p>
+  </div>
+
+  <div class="acciones">
+    <button class="btn principal" id="guardar" type="button"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M19 8v6M22 11h-6"/></svg>Guardar mi contacto</button>
+    <a class="btn" id="btn-wa" href="#" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.5 3.5A11 11 0 0 0 3.2 17.2L2 22l4.9-1.3A11 11 0 0 0 20.5 3.5ZM12 20a8 8 0 0 1-4.2-1.2l-.3-.2-2.9.8.8-2.8-.2-.3A8 8 0 1 1 12 20Zm4.4-6c-.2-.1-1.4-.7-1.7-.8-.2-.1-.4-.1-.5.1l-.8 1c-.1.2-.3.2-.5.1a6.5 6.5 0 0 1-3.2-2.8c-.2-.4.2-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.5-.4h-.5a.9.9 0 0 0-.7.3 2.8 2.8 0 0 0-.9 2.1 4.9 4.9 0 0 0 1 2.6 11.2 11.2 0 0 0 4.3 3.8c1.6.7 2.2.8 3 .6a2.6 2.6 0 0 0 1.7-1.2 2 2 0 0 0 .1-1.2c0-.1-.2-.2-.5-.3Z"/></svg>WhatsApp</a>
+    <a class="btn" href="https://www.linkedin.com/in/danielazarraga/" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5ZM3 9h4v12H3V9Zm7 0h3.8v1.7h.1c.5-1 1.8-2 3.8-2 4 0 4.8 2.6 4.8 6V21h-4v-5.6c0-1.3 0-3-1.9-3s-2.1 1.4-2.1 2.9V21h-4V9Z"/></svg>LinkedIn</a>
+  </div>
+
+  <section>
+    <h2>Mis emprendimientos</h2>
+    <ul class="proyectos">
+      <li class="proy">
+        <a class="proy-main" href="https://jappymemories.com" target="_blank" rel="noopener">
+          <span class="num">01</span>
+          <span class="txt"><b>Jappy Memories</b><small>Experiencias creativas para conectar con amigas y contigo misma</small></span>
+          <span class="flecha" aria-hidden="true">↗</span>
+        </a>
+        <div class="mini"><a href="https://wa.me/50671634088?text=%C2%A1Hola!%20Te%20contacto%20desde%20Las%20Socias" target="_blank" rel="noopener">WhatsApp</a> · <a href="https://instagram.com/jappymemories" target="_blank" rel="noopener">@jappymemories</a> · <a href="mailto:jappymemories@gmail.com">Correo</a></div>
+      </li>
+      <li class="proy">
+        <a class="proy-main" href="https://superchivacr.com" target="_blank" rel="noopener">
+          <span class="num">02</span>
+          <span class="txt"><b>Súper Chiva</b><small>Medias personalizadas · 100% tú</small></span>
+          <span class="flecha" aria-hidden="true">↗</span>
+        </a>
+        <div class="mini"><a href="https://wa.me/50672292275?text=%C2%A1Hola!%20Te%20contacto%20desde%20Las%20Socias" target="_blank" rel="noopener">WhatsApp</a> · <a href="https://instagram.com/superchiva.cr" target="_blank" rel="noopener">@superchiva.cr</a> · <a href="mailto:hola@superchivacr.com">Correo</a></div>
+      </li>
+      <li class="proy">
+        <a class="proy-main" href="https://kuluzka.com" target="_blank" rel="noopener">
+          <span class="num">03</span>
+          <span class="txt"><b>Kuluzka</b><small>Un espacio para respirar, organizar y sostenerte</small></span>
+          <span class="flecha" aria-hidden="true">↗</span>
+        </a>
+        <div class="mini"><a href="https://instagram.com/kuluzkacr" target="_blank" rel="noopener">@kuluzkacr</a></div>
+      </li>
+      <li class="proy">
+        <a class="proy-main" href="https://korokotico.com" target="_blank" rel="noopener">
+          <span class="num">04</span>
+          <span class="txt"><b>Korokotico</b><small>Tu imaginación, lista para abrazar</small></span>
+          <span class="flecha" aria-hidden="true">↗</span>
+        </a>
+        <div class="mini"><a href="https://wa.me/50672292275?text=%C2%A1Hola!%20Te%20contacto%20desde%20Las%20Socias" target="_blank" rel="noopener">WhatsApp</a> · <a href="https://instagram.com/korokotico" target="_blank" rel="noopener">@korokotico</a> · <a href="mailto:korokotico@gmail.com">Correo</a></div>
+      </li>
+      <li class="proy">
+        <a class="proy-main" href="https://repitoo.com" target="_blank" rel="noopener">
+          <span class="num">05</span>
+          <span class="txt"><b>Repitoo</b><small>App para crecer juntos: lealtad de clientes, CRM, mail marketing y gift cards</small></span>
+          <span class="flecha" aria-hidden="true">↗</span>
+        </a>
+        <div class="mini"><a href="https://wa.me/50660594434?text=%C2%A1Hola!%20Te%20contacto%20desde%20Las%20Socias" target="_blank" rel="noopener">WhatsApp</a> · <a href="https://instagram.com/yorepitoo" target="_blank" rel="noopener">@yorepitoo</a> · <a href="mailto:hola@repitoo.com">Correo</a></div>
+      </li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Lo que hago</h2>
+    <div class="chips">
+      <span class="chip">Branding e identidad</span>
+      <span class="chip">Diseño de logotipos</span>
+      <span class="chip">Ilustración</span>
+      <span class="chip">Diseño editorial</span>
+      <span class="chip">Team building creativo</span>
+      <span class="chip">Talleres y experiencias</span>
+    </div>
+  </section>
+
+  <section>
+    <h2>Experiencia</h2>
+    <ul class="linea">
+      <li><span class="fecha">2025 – hoy</span><b>Fundadora · Jappy Memories</b><p>Experiencias creativas para empresas: bienestar organizacional, conexión de equipos y cultura interna.</p></li>
+      <li><span class="fecha">2021 – hoy</span><b>Diseñadora y directora creativa · Studio Monaz</b><p>Identidad visual para emprendimientos y marcas personales.</p></li>
+      <li><span class="fecha">2019 – hoy</span><b>Propietaria · Súper Chiva</b><p>Marca de diseño de medias inspiradas en los personajes y el entorno de Costa Rica.</p></li>
+      <li><span class="fecha">2025 – hoy</span><b>Facilitadora de talleres psicoeducativos · Kuluzka</b><p>Bienestar emocional, manejo del estrés y mindfulness para mujeres emprendedoras.</p></li>
+      <li><span class="fecha">2025</span><b>Consejería virtual supervisada · TeenSmart / JovenSalud.net</b><p>Orientación preventiva y trabajo comunitario.</p></li>
+      <li><span class="fecha">2017</span><b>Voluntaria · Asociación Yo Emprendedor</b><p>Community management, contenido empresarial, relaciones públicas y networking.</p></li>
+      <li><span class="fecha">2011 – 2016</span><b>Fiscal Auxiliar y Asistente Legal · Ministerio Público de Venezuela</b><p>Investigación penal y atención de casos de violencia contra las mujeres.</p></li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Formación</h2>
+    <ul class="linea">
+      <li><b>Licenciatura en Psicología</b><span class="fecha">Universidad Fidélitas · en curso</span></li>
+      <li><b>Bachillerato en Psicología</b><span class="fecha">Universidad Fidélitas · 2026</span></li>
+      <li><b>Certificación Profesional en Diseño Interior</b><span class="fecha">Ucreativa · 2023</span></li>
+      <li><b>Especialización en Diseño Gráfico</b><span class="fecha">Universidad Latina de Costa Rica · 2020</span></li>
+      <li><b>Abogada</b><span class="fecha">Universidad Central de Venezuela · 2014</span></li>
+      <li><b>Licenciada en Estudios Internacionales</b><span class="fecha">Universidad Central de Venezuela · 2008</span></li>
+      <li><b>Diplomados en Emprendimiento, Gestión y TI · Design Thinking</b><span class="fecha">Universidad Metropolitana · IESA · 2015 – 2018</span></li>
+    </ul>
+    <p class="extra">Herramientas: <strong>Illustrator · Photoshop · Canva · Figma</strong><br>Idiomas: <strong>español</strong> nativo · <strong>inglés</strong> intermedio · <strong>francés</strong> básico</p>
+  </section>
+
+  <div class="evento">
+    <img src="img/dz-monograma-blanco.png" alt="">
+    <div><b>¡Gracias por pasar por Las Socias!</b>Nos vimos en el evento como patrocinadoras con Jappy Memories. Escribime y armemos algo bonito juntas.</div>
+  </div>
+
+  <footer>
+    <div class="redes">
+      <a id="btn-ig" href="https://instagram.com/monaztudios" target="_blank" rel="noopener" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg></a>
+      <a href="https://www.linkedin.com/in/danielazarraga/" target="_blank" rel="noopener" aria-label="LinkedIn"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5ZM3 9h4v12H3V9Zm7 0h3.8v1.7h.1c.5-1 1.8-2 3.8-2 4 0 4.8 2.6 4.8 6V21h-4v-5.6c0-1.3 0-3-1.9-3s-2.1 1.4-2.1 2.9V21h-4V9Z"/></svg></a>
+    </div>
+    <img class="logo-h" src="img/dz-vertical-negro.png" alt="Daniela Zárraga Monasterios" style="width:120px">
+    <p>COSTA RICA</p>
+  </footer>
+  <div class="patron pie" aria-hidden="true"></div>
+</div>
+
+<script>
+/* ============ EDITAR AQUÍ TUS DATOS DE CONTACTO ============ */
+const DATOS = {
+  nombre: "Daniela",
+  apellido: "Zárraga Monasterios",
+  empresa: "Studio Monaz",
+  cargo: "Diseñadora gráfica",
+  telefono: "+50684384910",          // con código de país, sin espacios
+  correo: "",                         // vacío = no se agrega al contacto
+  web: location.href.split('#')[0],
+  instagram: "https://instagram.com/monaztudios",
+  linkedin: "https://www.linkedin.com/in/danielazarraga/",
+  mensajeWhatsApp: "¡Hola Daniela! Te conocí en Las Socias 👋"
+};
+/* =========================================================== */
+
+document.getElementById('btn-wa').href =
+  'https://wa.me/' + DATOS.telefono.replace(/\D/g,'') + '?text=' + encodeURIComponent(DATOS.mensajeWhatsApp);
+document.getElementById('btn-ig').href = DATOS.instagram;
+
+document.getElementById('guardar').addEventListener('click', async () => {
+  let foto = '';
+  try {
+    const r = await fetch('img/daniela.jpg');
+    const b = await r.blob();
+    foto = await new Promise(ok => { const f = new FileReader(); f.onload = () => ok(f.result.split(',')[1]); f.readAsDataURL(b); });
+  } catch (e) {}
+  const v = [
+    'BEGIN:VCARD','VERSION:3.0',
+    `N:${DATOS.apellido};${DATOS.nombre};;;`,
+    `FN:${DATOS.nombre} ${DATOS.apellido}`,
+    `ORG:${DATOS.empresa}`,
+    `TITLE:${DATOS.cargo}`,
+    `TEL;TYPE=CELL:${DATOS.telefono}`,
+    DATOS.correo ? `EMAIL;TYPE=INTERNET:${DATOS.correo}` : '',
+    `URL:${DATOS.web}`,
+    `X-SOCIALPROFILE;TYPE=instagram:${DATOS.instagram}`,
+    `X-SOCIALPROFILE;TYPE=linkedin:${DATOS.linkedin}`,
+    'NOTE:Nos conocimos en Las Socias',
+    foto ? `PHOTO;ENCODING=b;TYPE=JPEG:${foto}` : '',
+    'END:VCARD'
+  ].filter(Boolean).join('\r\n');
+  const url = URL.createObjectURL(new Blob([v], {type:'text/vcard'}));
+  const a = document.createElement('a');
+  a.href = url; a.download = 'Daniela-Zarraga.vcf';
+  document.body.appendChild(a); a.click(); a.remove();
+  setTimeout(() => URL.revokeObjectURL(url), 2000);
+});
+</script>
+</body>
+</html>
