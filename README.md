@@ -2,4 +2,4 @@
 
 Tarjeta de presentación digital (NFC): https://dzarraga.github.io/profile/
 
-Para editar teléfono, correo y redes, cambiá el bloque `DATOS` al final de `index.html`.
+El botón "Guardar mi contacto" descarga `daniela-zarraga.vcf` (vCard 3.0 con foto). Si cambian los datos, hay que actualizar ese archivo.
